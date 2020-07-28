@@ -15,7 +15,7 @@
     "ask-sdk-s3-persistence-adapter": "2.8.0",
     "axios": "0.19.2",
     "i18next": "19.1.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "moment": "2.24.0",
     "moment-timezone": "0.5.31"
   }
