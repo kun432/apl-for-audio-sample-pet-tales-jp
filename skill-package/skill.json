@@ -9,38 +9,6 @@
           ],
           "name": "Pet Tales",
           "description": "A sample multi-turn experience using APL and APL for Audio"
-        },
-        "en-AU": {
-          "summary": "A sample multi-turn experience using APL and APL for Audio",
-          "examplePhrases": [
-            "Alexa open Pet Tales"
-          ],
-          "name": "Pet Tales",
-          "description": "A sample multi-turn experience using APL and APL for Audio"
-        },
-        "en-CA": {
-          "summary": "A sample multi-turn experience using APL and APL for Audio",
-          "examplePhrases": [
-            "Alexa open Pet Tales"
-          ],
-          "name": "Pet Tales",
-          "description": "A sample multi-turn experience using APL and APL for Audio"
-        },
-        "en-GB": {
-          "summary": "A sample multi-turn experience using APL and APL for Audio",
-          "examplePhrases": [
-            "Alexa open Pet Tales"
-          ],
-          "name": "Pet Tales",
-          "description": "A sample multi-turn experience using APL and APL for Audio"
-        },
-        "en-IN": {
-          "summary": "A sample multi-turn experience using APL and APL for Audio",
-          "examplePhrases": [
-            "Alexa open Pet Tales"
-          ],
-          "name": "Pet Tales",
-          "description": "A sample multi-turn experience using APL and APL for Audio"
         }
       },
       "isAvailableWorldwide": true,
