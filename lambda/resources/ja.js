@@ -13,10 +13,10 @@ module.exports = {
     FIRST_VISIT: "いいですね！では行きましょう。",
     RETURN_VISIT: "わかりました、ではペットショップに別のペットを見に行きましょう。",
 
-    SHOP_KEEPER_GREETING: "<voice name='Hans'>こんにちは。私はティムといいます。店内をゆっくり見て回って、なにかあれば呼んでください。うちには猫や犬、そして色んな種類の珍しい動物がいますよ。</voice>",
+    SHOP_KEEPER_GREETING: "<voice name='Takumi'>こんにちは。私はティムといいます。店内をゆっくり見て回って、なにかあれば呼んでください。うちには猫や犬、そして色んな種類の珍しい動物がいますよ。</voice>",
     SHOP_KEEPER_GREETING_HAS_PETS: [
-        "<voice name='Hans'>また来てくれてありがとうございます。今日は何をご覧になりますか？ {{animalTypesAvailable}}?</voice>",
-        "<voice name='Hans'>こんにちは。また来てくれたんですね。ご覧になりたいペットがあれば言ってください。 {{animalTypesAvailable}}?</voice>"
+        "<voice name='Takumi'>また来てくれてありがとうございます。今日は何をご覧になりますか？ {{animalTypesAvailable}}?</voice>",
+        "<voice name='Takumi'>こんにちは。また来てくれたんですね。ご覧になりたいペットがあれば言ってください。 {{animalTypesAvailable}}?</voice>"
     ],
     PET_TYPE_PROMPT: "ありがとう、ティム。<break time='2s'/>じゃあ、どんな種類の動物を飼いたいか、言ってみてください。",
     ENTER_PET_STORE_REPROMPT: "どんな種類の動物を買いたいですか？ {{animalTypesAvailable}}?",
@@ -31,14 +31,14 @@ module.exports = {
     ANIMAL_TYPES_AVAILABLE_REPROMPT: "どれを見たいですか？ {{animalTypesAvailable}}",
 
     SHOP_KEEPER_RIGHT_THIS_WAY: [
-        "<voice name='Hans'>もちろんですよ。こちらです。</voice>",
-        "<voice name='Hans'>もちろん。こちらにどうぞ。</voice>",
-        "<voice name='Hans'>いいですよ、ついてきてください。</voice>"
+        "<voice name='Takumi'>もちろんですよ。こちらです。</voice>",
+        "<voice name='Takumi'>もちろん。こちらにどうぞ。</voice>",
+        "<voice name='Takumi'>いいですよ、ついてきてください。</voice>"
     ],
-    ANIMALS_AVAILABLE_COUNT: "<voice name='Hans'>今、店内には{{count}} 匹、いますよ。</voice>",
-    ANIMAL_INTRO: "<voice name='Hans'>{{pet.breed}} の {{pet.name}}</voice> ",
-    ANIMAL_TYPE_SELECTED_PROMPT: "<voice name='Hans'>このペットについてもっと詳しく聞きたいですか？</voice>",
-    ANIMAL_TYPE_SELECTED_PROMPT_plural: "<voice name='Hans'>どれについてもっと知りたいですか？</voice>",
+    ANIMALS_AVAILABLE_COUNT: "<voice name='Takumi'>今、店内には{{count}} 匹、いますよ。</voice>",
+    ANIMAL_INTRO: "<voice name='Takumi'>{{pet.breed}} の {{pet.name}}</voice> ",
+    ANIMAL_TYPE_SELECTED_PROMPT: "<voice name='Takumi'>このペットについてもっと詳しく聞きたいですか？</voice>",
+    ANIMAL_TYPE_SELECTED_PROMPT_plural: "<voice name='Takumi'>どれについてもっと知りたいですか？</voice>",
     ANIMAL_TYPE_SELECTED_REPROMPT: "どれについてもっと知りたいですか？",
     PET_CATALOG_DISPLAY_TITLE: "ペットカタログ",
 
@@ -94,7 +94,7 @@ module.exports = {
         getPetVoice('HOPS', '俺の名前はホップス。ジャンプするのが大好きなんだ。最高のウサギだぜ。')
     ],
 
-    ASK_TO_ADOPT_PET: "<voice name='Hans'>{{pet.name}} を家に連れて帰りますか？</voice>",
+    ASK_TO_ADOPT_PET: "<voice name='Takumi'>{{pet.name}} を家に連れて帰りますか？</voice>",
 
     ANIMAL_NOT_AVAILABLE: "それはいないと思います。どれを見たいですか？",
     ANIMAL_NOT_AVAILABLE_REPROMPT: "どれについてもっと聞きたいですか？",
@@ -102,7 +102,7 @@ module.exports = {
     DO_NOT_ADOPT_PET: "わかりました。次はどれを見たいですか？ {{animalTypesAvailable}}",
     ADOPT_PET: "キュートで可愛らしい {{pet.name}} にしたいと思います。",
     SENT_BACK_PROMPT: "あなたの家はもうペットでいっぱいです。{{pet.name}} は、ティムのペットショップに帰りました。いつでもペットショップにいって、ペットを連れて変えることができます。",
-    PET_SHOP_KEEPER_GOODBYE: "<voice name='Hans'>お目が高い！ご来店いただきありがとうございました。</voice>",
+    PET_SHOP_KEEPER_GOODBYE: "<voice name='Takumi'>お目が高い！ご来店いただきありがとうございました。</voice>",
     NEW_PET_AT_HOME: "なんて可愛いんでしょう。次にペットショップごっこを利用したときには、{{pet.name}} が家で待っていますよ。",
     PLAY_AGAIN: "もう一度遊びますか？",
 
