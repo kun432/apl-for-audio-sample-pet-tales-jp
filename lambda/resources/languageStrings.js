@@ -1,5 +1,5 @@
 module.exports = {
-    en: {
-        translation: require('./en.js')
+    ja: {
+        translation: require('./ja.js')
     }
 };

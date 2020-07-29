@@ -2,13 +2,13 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
-          "summary": "A sample multi-turn experience using APL and APL for Audio",
+        "ja-JP": {
+          "summary": "APLとAPL for Audioを使ったマルチターン体験のサンプルです。",
           "examplePhrases": [
-            "Alexa open Pet Tales"
+            "アレクサ、ペットショップごっこをひらいて"
           ],
-          "name": "Pet Tales",
-          "description": "A sample multi-turn experience using APL and APL for Audio"
+          "name": "ペットショップごっこ",
+          "description": "APLとAPL for Audioを使ったマルチターン体験のサンプルです。",
         }
       },
       "isAvailableWorldwide": true,
