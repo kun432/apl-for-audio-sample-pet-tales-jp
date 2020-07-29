@@ -15,11 +15,11 @@ module.exports = {
 
     SHOP_KEEPER_GREETING: "<voice name='Takumi'>こんにちは。私はティムといいます。店内をゆっくり見て回って、なにかあれば呼んでください。うちには猫や犬、そして色んな種類の珍しい動物がいますよ。</voice>",
     SHOP_KEEPER_GREETING_HAS_PETS: [
-        "<voice name='Takumi'>また来てくれてありがとうございます。今日は何をご覧になりますか？ {{animalTypesAvailable}}?</voice>",
-        "<voice name='Takumi'>こんにちは。また来てくれたんですね。ご覧になりたいペットがあれば言ってください。 {{animalTypesAvailable}}?</voice>"
+        "<voice name='Takumi'>また来てくれてありがとうございます。今日は {{animalTypesAvailable}} がいますよ。どれをご覧になりますか？</voice>",
+        "<voice name='Takumi'>こんにちは。また来てくれたんですね。今日は {{animalTypesAvailable}} がいますよ。ご覧になりたいペットがあれば言ってください。</voice>"
     ],
-    PET_TYPE_PROMPT: "ありがとう、ティム。<break time='2s'/>じゃあ、どんな種類の動物を飼いたいか、言ってみてください。",
-    ENTER_PET_STORE_REPROMPT: "どんな種類の動物を買いたいですか？ {{animalTypesAvailable}}?",
+    PET_TYPE_PROMPT: "ありがとう、ティム。<break time='2s'/>じゃあ、どんな動物を飼いたいか、言ってみてください。",
+    ENTER_PET_STORE_REPROMPT: "今日は {{animalTypesAvailable}} がいるようです。飼ってみたい動物の種類を言ってください。",
     ANIMAL_TYPE_dog: "犬",
     ANIMAL_TYPE_cat: "猫",
     ANIMAL_TYPE_rare_collection: "珍しい種類の動物",
@@ -28,7 +28,7 @@ module.exports = {
     ANIMAL_TYPE_SELECTED_cat: "猫はとてもかわいくて抱きしめたくなりますよね。早く見たいです。ねぇ、ティム、猫を見せてもらえますか？",
     ANIMAL_TYPE_SELECTED_rare_collection: "神秘的で気になりますね。ねぇ、ティム、珍しい動物を見せてもらえますか？",
     ANIMAL_TYPE_NOT_AVAILABLE: "そういう動物のここにはいないと思います。{{prompt}}",
-    ANIMAL_TYPES_AVAILABLE_REPROMPT: "どれを見たいですか？ {{animalTypesAvailable}}",
+    ANIMAL_TYPES_AVAILABLE_REPROMPT: "どれを見たいですか？ {{animalTypesAvailable}} から言ってください。",
 
     SHOP_KEEPER_RIGHT_THIS_WAY: [
         "<voice name='Takumi'>もちろんですよ。こちらです。</voice>",
@@ -37,7 +37,7 @@ module.exports = {
     ],
     ANIMALS_AVAILABLE_COUNT: "<voice name='Takumi'>今、店内には{{count}} 匹、いますよ。</voice>",
     ANIMAL_INTRO: "<voice name='Takumi'>{{pet.breed}} の {{pet.name}}</voice> ",
-    ANIMAL_TYPE_SELECTED_PROMPT: "<voice name='Takumi'>このペットについてもっと詳しく聞きたいですか？</voice>",
+    ANIMAL_TYPE_SELECTED_PROMPT: "<voice name='Takumi'>どのペットについてもっと詳しく聞きたいですか？</voice>",
     ANIMAL_TYPE_SELECTED_PROMPT_plural: "<voice name='Takumi'>どれについてもっと知りたいですか？</voice>",
     ANIMAL_TYPE_SELECTED_REPROMPT: "どれについてもっと知りたいですか？",
     PET_CATALOG_DISPLAY_TITLE: "ペットカタログ",
