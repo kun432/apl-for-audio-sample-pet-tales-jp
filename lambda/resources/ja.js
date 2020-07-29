@@ -13,12 +13,12 @@ module.exports = {
     FIRST_VISIT: "いいですね！では行きましょう。",
     RETURN_VISIT: "わかりました、ではペットショップに別のペットを見に行きましょう。",
 
-    SHOP_KEEPER_GREETING: "<voice name='Takumi'>こんにちは。私はティムといいます。店内をゆっくり見て回って、なにかあれば呼んでください。うちには猫や犬、そして色んな種類の珍しい動物がいますよ。</voice>",
+    SHOP_KEEPER_GREETING: "<voice name='Takumi'>こんにちは。私はティムといいます。店内をゆっくり見て回って、なにかあれば呼んでください。うちには猫、犬、そして珍しい種類の動物がいますよ。</voice>",
     SHOP_KEEPER_GREETING_HAS_PETS: [
         "<voice name='Takumi'>また来てくれてありがとうございます。今日は {{animalTypesAvailable}} がいますよ。どれをご覧になりますか？</voice>",
         "<voice name='Takumi'>こんにちは。また来てくれたんですね。今日は {{animalTypesAvailable}} がいますよ。ご覧になりたいペットがあれば言ってください。</voice>"
     ],
-    PET_TYPE_PROMPT: "ありがとう、ティム。<break time='2s'/>じゃあ、どんな動物を飼いたいか、言ってみてください。",
+    PET_TYPE_PROMPT: "ありがとう、ティム。<break time='2s'/>じゃあ、どの動物を飼いたいか、言ってみてください。",
     ENTER_PET_STORE_REPROMPT: "今日は {{animalTypesAvailable}} がいるようです。飼ってみたい動物の種類を言ってください。",
     ANIMAL_TYPE_dog: "犬",
     ANIMAL_TYPE_cat: "猫",
